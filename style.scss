@@ -1,0 +1,136 @@
+$backgroundColor: rgb(32,33,36);
+$textColor: rgb(211,213,216);
+$borderColor:rgb(83,87,91);
+
+body{
+    background-color: $backgroundColor;
+    font-family: sans-serif, Arial, Helvetica;
+}
+.centered{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+h3{
+    color: white;
+}
+
+.headerLinks{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.headerLinks a{
+    color: $textColor;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.headerLinks a:hover{
+    color: $textColor;
+    text-decoration: underline;
+}
+
+
+
+.textBox{
+    width: 100%;
+    max-width: 600px;
+    height: 35px;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 1.5px;
+    border-color: $borderColor;
+    padding: 5px 15px;
+    background-color: $backgroundColor;
+    color: $textColor;
+    
+}
+
+.textBox:hover, .textBox:focus{
+    background-color: rgb(48,49,52);
+    border-color: rgb(48,49,52);
+    outline: none;
+}
+
+
+
+.submitBtn{
+    padding: 5px;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 0;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(48,49,52);
+    color: $textColor;
+}
+
+.submitBtn:hover{
+    cursor: pointer;
+    border-width: 1px;
+    border-color: $borderColor;
+    border-style: solid;
+}
+
+#advBtn{
+    background-color: rgb(138,180,247);
+    color: $backgroundColor;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+}
+
+#advBtn:hover{
+    background-color: rgb(175,203,250);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,91,183);
+}
+
+#advanced{
+    width: 615px;
+    text-align: right;
+}
+
+.advField {
+    width: 400px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px 7px;
+    color: rgb(211, 213, 216);
+    border-color: rgb(83, 87, 91);
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(32, 33, 36);
+}
+
+.advField:focus{
+    border-color: rgb(138,180,247);
+    outline: none;
+}
+
+table{
+    width: 700px;
+    color: rgb(150,155,161);
+    font-size: 14px;
+}
+
+.search{
+    text-align: center;
+}
+
+.advancedForm{
+    margin: 100px 10px;
+}
